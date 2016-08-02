@@ -2,18 +2,14 @@
 set -e
 
 UNAME="$(uname)"
-export CFLAGS="-O3"
-export CXXFLAGS="-O3"
 if [ "${UNAME}" == "Darwin" ]; then
   # for Mac OSX
-  export CC=clang
-  export CXX=clang++
-  export MACOSX_VERSION_MIN="10.7"
+  # This is here to prevent issuses with no finding type_traits headers
+  # though this is done in toolchain, so it seems odd that it is needed.
+  export MACOSX_VERSION_MIN="10.9"
   export MACOSX_DEPLOYMENT_TARGET="${MACOSX_VERSION_MIN}"
   export CXXFLAGS="${CXXFLAGS} -mmacosx-version-min=${MACOSX_VERSION_MIN}"
-  export CXXFLAGS="${CXXFLAGS} -stdlib=libc++"
   export LDFLAGS="${LDFLAGS} -mmacosx-version-min=${MACOSX_VERSION_MIN}"
-  export LDFLAGS="${LDFLAGS} -stdlib=libc++ -lc++"
   export LINKFLAGS="${LDFLAGS}"
 fi
 

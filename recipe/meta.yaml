@@ -17,19 +17,22 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
   build:
+    - toolchain
     - pkg-config
-    - xz 5.0.*
+    - xz 5.2.*
     - glib
     - libsigcpp
     - libxml2
     - glibmm >=2.4
+    - perl >=5.20.*  # [linux]
   run:
     - glib
+    - xz 5.2.*
     - libsigcpp
     - libxml2
     - glibmm >=2.4
