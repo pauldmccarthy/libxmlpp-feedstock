@@ -28,14 +28,14 @@ requirements:
     - glib 2.51.*
     - libsigcpp
     - libxml2 2.9.*
-    - glib 2.51.*mm >=2.4
+    - glibmm >=2.4
     - perl >=5.20.*  # [linux]
   run:
     - glib 2.51.*
     - xz 5.2.*
     - libsigcpp
     - libxml2 2.9.*
-    - glib 2.51.*mm >=2.4
+    - glibmm >=2.4
 
 test:
   commands:
