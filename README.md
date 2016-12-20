@@ -11,6 +11,18 @@ Summary: C++ bindings for libxml2
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libxmlpp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libxmlpp-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/libxmlpp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libxmlpp-feedstock)
+Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxmlpp/badges/version.svg)](https://anaconda.org/conda-forge/libxmlpp)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxmlpp/badges/downloads.svg)](https://anaconda.org/conda-forge/libxmlpp)
+
 Installing libxmlpp
 ===================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libxmlpp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libxmlpp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libxmlpp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libxmlpp-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxmlpp/badges/version.svg)](https://anaconda.org/conda-forge/libxmlpp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxmlpp/badges/downloads.svg)](https://anaconda.org/conda-forge/libxmlpp)
 
 
 Updating libxmlpp-feedstock
