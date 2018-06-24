@@ -22,19 +22,21 @@ build:
 
 requirements:
   build:
-    - toolchain
     - pkg-config
-    - xz 5.2.*
-    - glib 2.51.*
-    - libsigcpp
-    - libxml2 2.9.*
-    - glibmm >=2.4
     - perl >=5.20.*  # [linux]
-  run:
-    - glib 2.51.*
-    - xz 5.2.*
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - xz
+    - glib
     - libsigcpp
-    - libxml2 2.9.*
+    - libxml2
+    - glibmm >=2.4
+  run:
+    - glib
+    - xz
+    - libsigcpp
+    - libxml2
     - glibmm >=2.4
 
 test:
