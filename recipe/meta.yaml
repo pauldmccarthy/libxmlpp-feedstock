@@ -17,7 +17,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
 
 requirements:
@@ -32,6 +32,7 @@ requirements:
     - libsigcpp
     - libxml2
     - glibmm >=2.4
+    - perl  # [linux]
   run:
     - glib
     - xz
