@@ -46,7 +46,9 @@ test:
 
 about:
   home: http://libxmlplusplus.sourceforge.net/
-  license: GNU Lesser General Public License v2.1
+  license: LGPL v2.1
+  license_family: GPL
+  license_file: COPYING
   summary: "C++ bindings for libxml2"
 
 extra:
