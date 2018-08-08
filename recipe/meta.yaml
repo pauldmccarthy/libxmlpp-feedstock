@@ -32,7 +32,7 @@ requirements:
     - libsigcpp
     - libxml2
     - glibmm >=2.4
-    - perl  # [linux]
+    - perl >=5.20.*  # [linux]
   run:
     - glib
     - xz
