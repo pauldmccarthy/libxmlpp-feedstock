@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -ex
 
 UNAME="$(uname)"
 if [ "${UNAME}" == "Darwin" ]; then
@@ -19,3 +19,6 @@ if [ "${UNAME}" == "Linux" ]; then
   make check  # fails on mac, homebrew recipe does not run check either.
 fi
 make install
+
+# remove libtool files
+find $PREFIX -name '*.la' -delete
