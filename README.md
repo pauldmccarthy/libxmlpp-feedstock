@@ -3,7 +3,7 @@ About libxmlpp
 
 Home: http://libxmlplusplus.sourceforge.net/
 
-Package license: LGPL v2.1
+Package license: LGPL-2.1-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxmlpp-feedstock/blob/master/LICENSE.txt)
 
