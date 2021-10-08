@@ -3,17 +3,17 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '10'
+- '11'
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '10'
+- '11'
 glib:
-- 2.64.6
+- '2'
 libxml2:
 - '2.9'
 macos_machine:
