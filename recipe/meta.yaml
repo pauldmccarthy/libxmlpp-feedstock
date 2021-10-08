@@ -16,10 +16,10 @@ build:
 
 requirements:
   build:
-    - pkg-config
-    - perl >=5.20  # [linux]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - pkg-config
+    - perl >=5.20  # [linux]
   host:
     - xz
     - glib
@@ -27,9 +27,6 @@ requirements:
     - libxml2
     - glibmm >=2.4
   run:
-    - glib
-    - xz
-    - libxml2
     - glibmm >=2.4
 
 test:
