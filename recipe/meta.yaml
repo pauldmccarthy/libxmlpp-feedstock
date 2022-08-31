@@ -31,6 +31,7 @@ outputs:
         - ninja
         - pkg-config
       host:
+        - zlib
         - libxml2
         - glib
         - glibmm
