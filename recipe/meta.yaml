@@ -42,7 +42,7 @@ outputs:
         - pkg-config
       commands:
         - test -f ${PREFIX}/lib/libxml++-{{ abi_version }}${SHLIB_EXT}  # [unix]
-        - if not exist %LIBRARY_BIN%\\xml++-{{ abi_version }}-0.dll exit 1  # [win]
+        - if not exist %LIBRARY_BIN%\\xml++-vc142-{{ abi_version }}-1.dll exit 1  # [win]
         - pkg-config --exact-version {{ version }} libxml++-{{ abi_version }}
   - name: libxmlpp
     requirements:
