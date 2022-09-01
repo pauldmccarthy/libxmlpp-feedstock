@@ -40,6 +40,7 @@ outputs:
     test:
       requires:
         - pkg-config
+        - glib
       commands:
         - test -f ${PREFIX}/lib/libxml++-{{ abi_version }}${SHLIB_EXT}  # [unix]
         - if not exist %LIBRARY_BIN%\\xml++-vc142-{{ abi_version }}-1.dll exit 1  # [win]
