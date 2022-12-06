@@ -1,9 +1,5 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
-c_compiler:
-- clang
-c_compiler_version:
-- '11'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -11,7 +7,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '11'
+- '14'
 glib:
 - '2'
 libxml2:
@@ -27,6 +23,3 @@ target_platform:
 - osx-64
 xz:
 - '5.2'
-zip_keys:
-- - c_compiler_version
-  - cxx_compiler_version
