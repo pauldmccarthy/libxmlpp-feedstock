@@ -11,15 +11,12 @@ cxx_compiler_version:
 glib:
 - '2'
 libxml2:
-- '2.9'
+- '2.10'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-pin_run_as_build:
-  libxml2:
-    max_pin: x.x
-  xz:
-    max_pin: x.x
 target_platform:
 - osx-64
 xz:
-- '5.2'
+- '5'
+zlib:
+- '1.2'
