@@ -1,6 +1,6 @@
 {% set version = "5.0.2" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
-{% set abi_version = "4.0" %}
+{% set abi_version = "5.0" %}
 
 package:
   name: libxmlpp
