@@ -53,8 +53,8 @@ outputs:
       requires:
         - pkg-config
       commands:
-        - test -f ${PREFIX}/lib/pkg-config/libxml++-{{ abi_version }}.pc # [unix]
-        - if not exist %LIBRARY_LIB%\\pkgconfig\\libxml++-{{ abi_version }}.pc exit 1 # [win]
+        - test -f ${PREFIX}/lib/pkg-config/libxml++-{{ abi_version }}.pc  # [unix]
+        - if not exist %LIBRARY_LIB%\\pkgconfig\\libxml++-{{ abi_version }}.pc exit 1  # [win]
 
 
 about:
