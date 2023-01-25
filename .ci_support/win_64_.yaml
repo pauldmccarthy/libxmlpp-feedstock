@@ -7,13 +7,10 @@ cxx_compiler:
 glib:
 - '2'
 libxml2:
-- '2.9'
-pin_run_as_build:
-  libxml2:
-    max_pin: x.x
-  xz:
-    max_pin: x.x
+- '2.10'
 target_platform:
 - win-64
 xz:
-- '5.2'
+- '5'
+zlib:
+- '1.2'
