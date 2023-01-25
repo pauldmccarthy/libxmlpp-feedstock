@@ -1,4 +1,4 @@
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 {% set abi_version = "4.0" %}
 
